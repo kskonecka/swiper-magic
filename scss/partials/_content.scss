@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  border: 1px solid silver;
+  margin: 0;
+}
+.main {
+  margin-top: 10px;
+}
+.swiper-container {
+  height: 90vh;
+  width: 90%;
+  margin: 0 auto;
+  // border: 1px solid red;
+}
+.swiper-slide {
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.one {
+  background-image: url('../images/milky-way.jpg');
+}
+.two {
+  background-image: url('../images/delicate-arch.jpg');
+}
+.three {
+  background-image: url('../images/landscape.jpg');
+}
+.four {
+  background-image: url('../images/polar-bears.jpg');
+}
+.five {
+  background-image: url('../images/road.jpg');
+}
+.six {
+  background-image: url('../images/waterfall.jpg');
+}
+
+.swiper-pagination-progressbar {
+  background: #81998b !important;
+}
