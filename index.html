@@ -14,23 +14,59 @@
 <body>
 <div class="main">
   <!-- Slider main container -->
-  <div class="swiper-container">
+  <div class="swiper-container" id="main-swiper">
       <!-- Additional required wrapper -->
       <div class="swiper-wrapper">
           <!-- Slides -->
           <div class="swiper-slide one">Slide 1</div>
-          <div class="swiper-slide two">Slide 2</div>
+          <div class="swiper-slide two">
+            <div class="two-image" data-swiper-parallax-x="-1700" data-swiper-parallax-duration="1200"></div>
+            <div class="two-text">
+            <div class="two-title" data-swiper-parallax-y="-200" data-swiper-parallax-duration="1100">some interior parallax</div>
+            <div class="two-lyrics" data-swiper-parallax-y="-300" data-swiper-parallax-duration="1100">with image!
+            </div>
+            </div>
+          </div>
           <div class="swiper-slide three">Slide 3</div>
-          <div class="swiper-slide four">Slide 4</div>
+          <div class="swiper-slide">
+            <div class="swiper-container swiper-container-h">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide one-h">Horizontal Slide 1</div>
+                        <div class="swiper-slide two-h">Horizontal Slide 2</div>
+                        <div class="swiper-slide three-h">Horizontal Slide 3</div>
+                        <div class="swiper-slide four-h">Horizontal Slide 4</div>
+                        <div class="swiper-slide five-h">Horizontal Slide 5</div>
+                    </div>
+                    <div class="swiper-pagination swiper-pagination-h"></div>
+                </div>
+          </div>
           <div class="swiper-slide five">Slide 5</div>
           <div class="swiper-slide six">Slide 6</div>
+          <div class="swiper-slide one">Slide 7</div>
+          <div class="swiper-slide two">Slide 8</div>
+          <div class="swiper-slide three">
+            <div class="swiper-container swiper-container-p">
+              <div class="parallax-bg" data-swiper-parallax="-23%"></div>
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">Parallax Slide 1</div>
+                        <div class="swiper-slide">Parallax Slide 2</div>
+                        <div class="swiper-slide">Parallax Slide 3</div>
+                        <div class="swiper-slide">Parallax Slide 4</div>
+                        <div class="swiper-slide">Parallax Slide 5</div>
+                    </div>
+                    <div class="swiper-pagination swiper-pagination-p"></div>
+                </div>
+          </div>
+          <div class="swiper-slide four">Slide 10</div>
+          <div class="swiper-slide five">Slide 11</div>
+          <div class="swiper-slide six">Slide 12</div>
       </div>
       <!-- If we need pagination -->
-      <div class="swiper-pagination"></div>
+      <div class="swiper-pagination swiper-pagination-v"></div>
 
       <!-- If we need navigation buttons -->
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div>
+      <!-- <div class="swiper-button-prev"></div> -->
+      <!-- <div class="swiper-button-next"></div> -->
 
       <!-- If we need scrollbar -->
       <!-- <div class="swiper-scrollbar"></div> -->

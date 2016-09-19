@@ -233,14 +233,21 @@ input[type=button] {
   margin: 0;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 .main {
-  margin-top: 10px;
+  /*margin-top: 10px;*/
 }
 
 .swiper-container {
-  height: 90vh;
-  width: 90%;
+  height: 100vh;
+  width: 100%;
   margin: 0 auto;
+  font-size: 30px;
+  color: silver;
+  font-family: sans-serif;
 }
 
 .swiper-slide {
@@ -264,7 +271,27 @@ input[type=button] {
 }
 
 .four {
+  background-image: url("http://lorempixel.com/output/nature-h-c-1850-1879-5.jpg");
+}
+
+.one-h {
   background-image: url("../images/polar-bears.jpg");
+}
+
+.two-h {
+  background-image: url("http://lorempixel.com/output/nature-q-c-1028-959-7.jpg");
+}
+
+.three-h {
+  background-image: url("http://lorempixel.com/output/nature-h-c-872-959-10.jpg");
+}
+
+.four-h {
+  background-image: url("http://lorempixel.com/output/nature-h-c-872-959-4.jpg");
+}
+
+.five-h {
+  background-image: url("http://lorempixel.com/output/nature-q-c-1028-959-7.jpg");
 }
 
 .five {
@@ -275,6 +302,49 @@ input[type=button] {
   background-image: url("../images/waterfall.jpg");
 }
 
-.swiper-pagination-progressbar {
-  background: #81998b !important;
+.swiper-container-vertical > .swiper-pagination-progress {
+  width: 8px;
+  right: 0;
+  left: initial;
+}
+
+.swiper-pagination-progress .swiper-pagination-progressbar {
+  background: #81998b;
+}
+
+.swiper-container-vertical > .swiper-pagination-bullets {
+  top: 50%;
+}
+
+.swiper-pagination-bullet {
+  width: 14px;
+  height: 14px;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #81998b;
+}
+
+.two-image {
+  background-image: url("http://img03.deviantart.net/aa56/i/2014/219/0/a/full_blue_moon__png_by_annamae22-d7sx9r5.png");
+  width: 50%;
+  height: 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.two-title {
+  margin-bottom: 50px;
+}
+
+.parallax-bg {
+  background-image: url("../images/city.jpg");
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 130%;
+  height: 100%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
 }
